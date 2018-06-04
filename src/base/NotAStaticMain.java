@@ -9,6 +9,14 @@ public class NotAStaticMain{
         GiveEmAName nevetad = new GiveEmAName();
         GettingBasicDatas adatbeeski = new GettingBasicDatas();
         adatbeeski.NumOfPlayers();
+        MakeThePlayers(jatekos, nevetad, adatbeeski);
+        for(int i=0;i<adatbeeski.nDumb;i++)
+        {
+            System.out.print(jatekos[i].name);
+        }
+    }
+
+    private void MakeThePlayers(Player[] jatekos, GiveEmAName nevetad, GettingBasicDatas adatbeeski) {
         for(int i=0;i<adatbeeski.nDumb;i++)
         {
             jatekos[i] = new Idiot(nevetad.names[i]);
