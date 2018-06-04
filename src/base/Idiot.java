@@ -1,5 +1,8 @@
 package base;
 
 public class Idiot extends Player {
-    public Idiot(){}
+    public String name;
+    public Idiot(String egyedname){
+        egyedname=name;
+    }
 }

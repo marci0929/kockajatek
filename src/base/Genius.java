@@ -1,5 +1,8 @@
 package base;
 
 public class Genius extends Player{
-    public Genius(){}
+    public String name;
+    public Genius(String egyedname){
+        egyedname=name;
+    }
 }
