@@ -16,7 +16,7 @@ public class NotAStaticMain{
         }
         for(int i=0;i<adatbeeski.nGenius;i++)
         {
-            System.out.print(jatekos[i+adatbeeski.nDumb+1].name+",");
+            System.out.print(jatekos[i+adatbeeski.nDumb].name+",");
         }
         System.out.print("jatszik.");
     }
@@ -36,7 +36,7 @@ public class NotAStaticMain{
         }
         for(int i=0;i<adatbeeski.nGenius;i++)
         {
-            jatekos[i+adatbeeski.nDumb+1].name = nevetad.names[i+adatbeeski.nDumb+1];
+            jatekos[i+adatbeeski.nDumb].name = nevetad.names[i+adatbeeski.nDumb+1];
         }
     }
 }

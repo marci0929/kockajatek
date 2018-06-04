@@ -1,12 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="66b6db59-ce1c-48dc-9510-1d7bdd248f5b" name="Default" comment="trying to print out the player's names">
+    <list default="true" id="66b6db59-ce1c-48dc-9510-1d7bdd248f5b" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/dictionaries/User.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/base/Genius.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/base/Genius.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/base/Idiot.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/base/Idiot.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/base/NotAStaticMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/base/NotAStaticMain.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/base/Player.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/base/Player.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -18,13 +15,13 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Main.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Main.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/base/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="5" column="54" selection-start-line="5" selection-start-column="54" selection-end-line="5" selection-end-column="54" />
+            <state relative-caret-position="102">
+              <caret line="6" column="29" lean-forward="true" selection-start-line="6" selection-start-column="29" selection-end-line="6" selection-end-column="29" />
               <folding>
-                <element signature="e#89#135#1" expanded="true" />
+                <element signature="e#118#164#1" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -57,45 +54,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="NotAStaticMain.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/base/NotAStaticMain.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="485">
-              <caret line="35" column="5" selection-start-line="35" selection-start-column="5" selection-end-line="35" selection-end-column="5" />
-              <folding>
-                <element signature="e#139#173#1" expanded="true" />
-                <element signature="e#182#222#1" expanded="true" />
-                <element signature="e#231#301#1" expanded="true" />
-                <element signature="e#388#396#1" expanded="true" />
-                <element signature="e#384#486#0" expanded="true" />
-                <element signature="e#384#486#0" expanded="true" />
-                <element signature="e#384#486#0" expanded="true" />
-                <element signature="e#498#506#1" expanded="true" />
-                <element signature="e#605#698#0" expanded="true" />
-                <element signature="e#605#698#0" expanded="true" />
-                <element signature="e#605#698#0" expanded="true" />
-                <element signature="e#616#624#1" expanded="true" />
-                <element signature="e#707#820#0" expanded="true" />
-                <element signature="e#707#820#0" expanded="true" />
-                <element signature="e#707#820#0" expanded="true" />
-                <element signature="e#775#793#0" expanded="true" />
-                <element signature="e#833#841#1" expanded="true" />
-                <element signature="e#829#932#0" expanded="true" />
-                <element signature="e#829#932#0" expanded="true" />
-                <element signature="e#829#932#0" expanded="true" />
-                <element signature="e#945#953#1" expanded="true" />
-                <element signature="e#941#1084#0" expanded="true" />
-                <element signature="e#941#1084#0" expanded="true" />
-                <element signature="e#941#1084#0" expanded="true" />
-                <element signature="e#1009#1029#0" expanded="true" />
-                <element signature="e#1009#1029#0" expanded="true" />
-                <element signature="e#1052#1072#0" expanded="true" />
-                <element signature="e#1052#1072#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="GettingBasicDatas.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/base/GettingBasicDatas.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -104,6 +62,55 @@
               <folding>
                 <element signature="e#204#240#1" expanded="true" />
                 <element signature="e#349#353#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="NotAStaticMain.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/base/NotAStaticMain.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="391">
+              <caret line="23" column="11" selection-start-line="23" selection-start-column="11" selection-end-line="23" selection-end-column="11" />
+              <folding>
+                <element signature="e#139#173#1" expanded="true" />
+                <element signature="e#182#222#1" expanded="true" />
+                <element signature="e#231#286#1" expanded="true" />
+                <element signature="e#388#396#1" expanded="true" />
+                <element signature="e#384#490#0" expanded="true" />
+                <element signature="e#384#490#0" expanded="true" />
+                <element signature="e#384#490#0" expanded="true" />
+                <element signature="e#459#478#0" expanded="true" />
+                <element signature="e#459#478#0" expanded="true" />
+                <element signature="e#503#511#1" expanded="true" />
+                <element signature="e#499#626#0" expanded="true" />
+                <element signature="e#499#626#0" expanded="true" />
+                <element signature="e#499#626#0" expanded="true" />
+                <element signature="e#576#614#0" expanded="true" />
+                <element signature="e#584#604#0" expanded="true" />
+                <element signature="e#584#604#0" expanded="true" />
+                <element signature="e#576#614#0" expanded="true" />
+                <element signature="e#787#795#1" expanded="true" />
+                <element signature="e#783#876#0" expanded="true" />
+                <element signature="e#783#876#0" expanded="true" />
+                <element signature="e#783#876#0" expanded="true" />
+                <element signature="e#889#897#1" expanded="true" />
+                <element signature="e#885#998#0" expanded="true" />
+                <element signature="e#885#998#0" expanded="true" />
+                <element signature="e#885#998#0" expanded="true" />
+                <element signature="e#953#971#0" expanded="true" />
+                <element signature="e#1011#1019#1" expanded="true" />
+                <element signature="e#1007#1110#0" expanded="true" />
+                <element signature="e#1007#1110#0" expanded="true" />
+                <element signature="e#1007#1110#0" expanded="true" />
+                <element signature="e#1123#1131#1" expanded="true" />
+                <element signature="e#1119#1262#0" expanded="true" />
+                <element signature="e#1119#1262#0" expanded="true" />
+                <element signature="e#1119#1262#0" expanded="true" />
+                <element signature="e#1187#1207#0" expanded="true" />
+                <element signature="e#1187#1207#0" expanded="true" />
+                <element signature="e#1230#1250#0" expanded="true" />
+                <element signature="e#1230#1250#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -130,7 +137,6 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/src/com/company/Main.java" />
-        <option value="$PROJECT_DIR$/src/base/Main.java" />
         <option value="$PROJECT_DIR$/src/base/GiveEmAName.java" />
         <option value="$PROJECT_DIR$/src/base/CreatePlayers.java" />
         <option value="$PROJECT_DIR$/src/base/GettingBasicDatas.java" />
@@ -138,6 +144,7 @@
         <option value="$PROJECT_DIR$/src/base/Player.java" />
         <option value="$PROJECT_DIR$/src/base/Idiot.java" />
         <option value="$PROJECT_DIR$/src/base/Genius.java" />
+        <option value="$PROJECT_DIR$/src/base/Main.java" />
         <option value="$PROJECT_DIR$/src/base/NotAStaticMain.java" />
       </list>
     </option>
@@ -197,7 +204,17 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.Main (1)">
+    <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="base.Main" />
+      <module name="Kockajatek" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="base.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
     <configuration name="Main" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="com.company.Main" />
       <module name="Kockajatek" />
@@ -220,8 +237,13 @@
       <envs />
       <method />
     </configuration>
+    <list>
+      <item itemvalue="Application.Main" />
+      <item itemvalue="Application.Main (1)" />
+    </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main (1)" />
         <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
@@ -342,7 +364,21 @@
       <option name="project" value="LOCAL" />
       <updated>1528134843604</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="trying to print out the player's names">
+      <created>1528135269730</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1528135269730</updated>
+    </task>
+    <task id="LOCAL-00017" summary="almost working">
+      <created>1528135645265</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1528135645265</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -358,11 +394,11 @@
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" />
       <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32884902" />
       <window_info anchor="bottom" id="Terminal" />
       <window_info id="Capture Tool" />
       <window_info id="Designer" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24963397" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24963397" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32884902" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -396,7 +432,8 @@
     <MESSAGE value="new branch failed,I will ask Emil about that" />
     <MESSAGE value="made things right" />
     <MESSAGE value="trying to print out the player's names" />
-    <option name="LAST_COMMIT_MESSAGE" value="trying to print out the player's names" />
+    <MESSAGE value="almost working" />
+    <option name="LAST_COMMIT_MESSAGE" value="almost working" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="editorHistoryManager">
@@ -429,16 +466,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/base/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="54" selection-start-line="5" selection-start-column="54" selection-end-line="5" selection-end-column="54" />
-          <folding>
-            <element signature="e#89#135#1" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/base/Output.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
@@ -459,17 +486,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/base/Genius.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="35" selection-start-line="2" selection-start-column="35" selection-end-line="2" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/base/Player.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
           <caret line="3" column="23" selection-start-line="3" selection-start-column="23" selection-end-line="3" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/base/Genius.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="35" selection-start-line="2" selection-start-column="35" selection-end-line="2" selection-end-column="35" />
         </state>
       </provider>
     </entry>
@@ -486,37 +513,57 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/base/NotAStaticMain.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="485">
-          <caret line="35" column="5" selection-start-line="35" selection-start-column="5" selection-end-line="35" selection-end-column="5" />
+        <state relative-caret-position="391">
+          <caret line="23" column="11" selection-start-line="23" selection-start-column="11" selection-end-line="23" selection-end-column="11" />
           <folding>
             <element signature="e#139#173#1" expanded="true" />
             <element signature="e#182#222#1" expanded="true" />
-            <element signature="e#231#301#1" expanded="true" />
+            <element signature="e#231#286#1" expanded="true" />
             <element signature="e#388#396#1" expanded="true" />
-            <element signature="e#384#486#0" expanded="true" />
-            <element signature="e#384#486#0" expanded="true" />
-            <element signature="e#384#486#0" expanded="true" />
-            <element signature="e#498#506#1" expanded="true" />
-            <element signature="e#605#698#0" expanded="true" />
-            <element signature="e#605#698#0" expanded="true" />
-            <element signature="e#605#698#0" expanded="true" />
-            <element signature="e#616#624#1" expanded="true" />
-            <element signature="e#707#820#0" expanded="true" />
-            <element signature="e#707#820#0" expanded="true" />
-            <element signature="e#707#820#0" expanded="true" />
-            <element signature="e#775#793#0" expanded="true" />
-            <element signature="e#833#841#1" expanded="true" />
-            <element signature="e#829#932#0" expanded="true" />
-            <element signature="e#829#932#0" expanded="true" />
-            <element signature="e#829#932#0" expanded="true" />
-            <element signature="e#945#953#1" expanded="true" />
-            <element signature="e#941#1084#0" expanded="true" />
-            <element signature="e#941#1084#0" expanded="true" />
-            <element signature="e#941#1084#0" expanded="true" />
-            <element signature="e#1009#1029#0" expanded="true" />
-            <element signature="e#1009#1029#0" expanded="true" />
-            <element signature="e#1052#1072#0" expanded="true" />
-            <element signature="e#1052#1072#0" expanded="true" />
+            <element signature="e#384#490#0" expanded="true" />
+            <element signature="e#384#490#0" expanded="true" />
+            <element signature="e#384#490#0" expanded="true" />
+            <element signature="e#459#478#0" expanded="true" />
+            <element signature="e#459#478#0" expanded="true" />
+            <element signature="e#503#511#1" expanded="true" />
+            <element signature="e#499#626#0" expanded="true" />
+            <element signature="e#499#626#0" expanded="true" />
+            <element signature="e#499#626#0" expanded="true" />
+            <element signature="e#576#614#0" expanded="true" />
+            <element signature="e#584#604#0" expanded="true" />
+            <element signature="e#584#604#0" expanded="true" />
+            <element signature="e#576#614#0" expanded="true" />
+            <element signature="e#787#795#1" expanded="true" />
+            <element signature="e#783#876#0" expanded="true" />
+            <element signature="e#783#876#0" expanded="true" />
+            <element signature="e#783#876#0" expanded="true" />
+            <element signature="e#889#897#1" expanded="true" />
+            <element signature="e#885#998#0" expanded="true" />
+            <element signature="e#885#998#0" expanded="true" />
+            <element signature="e#885#998#0" expanded="true" />
+            <element signature="e#953#971#0" expanded="true" />
+            <element signature="e#1011#1019#1" expanded="true" />
+            <element signature="e#1007#1110#0" expanded="true" />
+            <element signature="e#1007#1110#0" expanded="true" />
+            <element signature="e#1007#1110#0" expanded="true" />
+            <element signature="e#1123#1131#1" expanded="true" />
+            <element signature="e#1119#1262#0" expanded="true" />
+            <element signature="e#1119#1262#0" expanded="true" />
+            <element signature="e#1119#1262#0" expanded="true" />
+            <element signature="e#1187#1207#0" expanded="true" />
+            <element signature="e#1187#1207#0" expanded="true" />
+            <element signature="e#1230#1250#0" expanded="true" />
+            <element signature="e#1230#1250#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/base/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="29" lean-forward="true" selection-start-line="6" selection-start-column="29" selection-end-line="6" selection-end-column="29" />
+          <folding>
+            <element signature="e#118#164#1" expanded="true" />
           </folding>
         </state>
       </provider>
