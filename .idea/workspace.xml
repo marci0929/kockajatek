@@ -2,9 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="66b6db59-ce1c-48dc-9510-1d7bdd248f5b" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/base/GiveEmAName.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/base/GettingBasicDatas.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/base/GettingBasicDatas.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/base/Genius.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/base/Genius.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/base/GiveEmAName.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/base/GiveEmAName.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/base/Idiot.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/base/Idiot.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/base/NotAStaticMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/base/NotAStaticMain.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -32,8 +33,8 @@
       <file leaf-file-name="GettingBasicDatas.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/base/GettingBasicDatas.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="5" column="32" selection-start-line="5" selection-start-column="32" selection-end-line="5" selection-end-column="32" />
+            <state relative-caret-position="68">
+              <caret line="6" selection-start-line="6" selection-end-line="6" />
               <folding>
                 <element signature="e#143#179#1" expanded="true" />
                 <element signature="e#288#292#0" expanded="true" />
@@ -54,8 +55,8 @@
       <file leaf-file-name="Idiot.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/base/Idiot.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="3" column="23" selection-start-line="3" selection-start-column="23" selection-end-line="3" selection-end-column="23" />
+            <state relative-caret-position="85">
+              <caret line="5" column="22" selection-start-line="5" selection-start-column="22" selection-end-line="5" selection-end-column="22" />
               <folding>
                 <element signature="e#85#86#0" expanded="true" />
                 <element signature="e#109#110#0" expanded="true" />
@@ -68,7 +69,7 @@
         <entry file="file://$PROJECT_DIR$/src/base/Genius.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="85">
-              <caret line="5" column="23" selection-start-line="5" selection-start-column="23" selection-end-line="5" selection-end-column="23" />
+              <caret line="5" column="23" lean-forward="true" selection-start-line="5" selection-start-column="23" selection-end-line="5" selection-end-column="23" />
               <folding>
                 <element signature="e#110#111#0" expanded="true" />
                 <element signature="e#134#135#0" expanded="true" />
@@ -80,8 +81,8 @@
       <file leaf-file-name="NotAStaticMain.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/base/NotAStaticMain.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="12" column="34" lean-forward="true" selection-start-line="12" selection-start-column="34" selection-end-line="12" selection-end-column="34" />
+            <state relative-caret-position="119">
+              <caret line="7" column="26" lean-forward="true" selection-start-line="7" selection-start-column="26" selection-end-line="7" selection-end-column="26" />
               <folding>
                 <element signature="e#140#161#1" expanded="true" />
                 <element signature="e#209#239#1" expanded="true" />
@@ -97,8 +98,8 @@
       <file leaf-file-name="GiveEmAName.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/base/GiveEmAName.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="3" selection-start-line="3" selection-end-line="3" />
+            <state relative-caret-position="102">
+              <caret line="6" column="84" selection-start-line="6" selection-start-column="84" selection-end-line="6" selection-end-column="84" />
             </state>
           </provider>
         </entry>
@@ -121,11 +122,11 @@
         <option value="$PROJECT_DIR$/src/com/company/Main.java" />
         <option value="$PROJECT_DIR$/src/base/Main.java" />
         <option value="$PROJECT_DIR$/src/base/Player.java" />
+        <option value="$PROJECT_DIR$/src/base/GettingBasicDatas.java" />
         <option value="$PROJECT_DIR$/src/base/Idiot.java" />
         <option value="$PROJECT_DIR$/src/base/Genius.java" />
-        <option value="$PROJECT_DIR$/src/base/GettingBasicDatas.java" />
-        <option value="$PROJECT_DIR$/src/base/NotAStaticMain.java" />
         <option value="$PROJECT_DIR$/src/base/GiveEmAName.java" />
+        <option value="$PROJECT_DIR$/src/base/NotAStaticMain.java" />
       </list>
     </option>
   </component>
@@ -274,7 +275,14 @@
       <option name="project" value="LOCAL" />
       <updated>1528131015881</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="-Exported the data input to another class&#10;-Started initializing the Idiot players">
+      <created>1528131620722</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1528131620722</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -320,7 +328,8 @@
     <MESSAGE value="created name Strings" />
     <MESSAGE value="created array constructor for jatekos" />
     <MESSAGE value="created user data input" />
-    <option name="LAST_COMMIT_MESSAGE" value="created user data input" />
+    <MESSAGE value="-Exported the data input to another class&#10;-Started initializing the Idiot players" />
+    <option name="LAST_COMMIT_MESSAGE" value="-Exported the data input to another class&#10;-Started initializing the Idiot players" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="editorHistoryManager">
@@ -334,13 +343,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/base/Genius.java">
+    <entry file="file://$PROJECT_DIR$/src/base/GettingBasicDatas.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="23" selection-start-line="5" selection-start-column="23" selection-end-line="5" selection-end-column="23" />
+        <state relative-caret-position="68">
+          <caret line="6" selection-start-line="6" selection-end-line="6" />
           <folding>
-            <element signature="e#110#111#0" expanded="true" />
-            <element signature="e#134#135#0" expanded="true" />
+            <element signature="e#143#179#1" expanded="true" />
+            <element signature="e#288#292#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -354,8 +363,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/base/Idiot.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="23" selection-start-line="3" selection-start-column="23" selection-end-line="3" selection-end-column="23" />
+        <state relative-caret-position="85">
+          <caret line="5" column="22" selection-start-line="5" selection-start-column="22" selection-end-line="5" selection-end-column="22" />
           <folding>
             <element signature="e#85#86#0" expanded="true" />
             <element signature="e#109#110#0" expanded="true" />
@@ -363,28 +372,28 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/base/GettingBasicDatas.java">
+    <entry file="file://$PROJECT_DIR$/src/base/Genius.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
-          <caret line="5" column="32" selection-start-line="5" selection-start-column="32" selection-end-line="5" selection-end-column="32" />
+          <caret line="5" column="23" lean-forward="true" selection-start-line="5" selection-start-column="23" selection-end-line="5" selection-end-column="23" />
           <folding>
-            <element signature="e#143#179#1" expanded="true" />
-            <element signature="e#288#292#0" expanded="true" />
+            <element signature="e#110#111#0" expanded="true" />
+            <element signature="e#134#135#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/base/GiveEmAName.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" selection-start-line="3" selection-end-line="3" />
+        <state relative-caret-position="102">
+          <caret line="6" column="84" selection-start-line="6" selection-start-column="84" selection-end-line="6" selection-end-column="84" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/base/NotAStaticMain.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="34" lean-forward="true" selection-start-line="12" selection-start-column="34" selection-end-line="12" selection-end-column="34" />
+        <state relative-caret-position="119">
+          <caret line="7" column="26" lean-forward="true" selection-start-line="7" selection-start-column="26" selection-end-line="7" selection-end-column="26" />
           <folding>
             <element signature="e#140#161#1" expanded="true" />
             <element signature="e#209#239#1" expanded="true" />
