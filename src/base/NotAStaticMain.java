@@ -19,11 +19,19 @@ public class NotAStaticMain{
     private void MakeThePlayers(Player[] jatekos, GiveEmAName nevetad, GettingBasicDatas adatbeeski) {
         for(int i=0;i<adatbeeski.nDumb;i++)
         {
-            jatekos[i] = new Idiot(nevetad.names[i]);
+            jatekos[i] = new Idiot();
         }
         for(int i=0;i<adatbeeski.nGenius;i++)
         {
-            jatekos[i+adatbeeski.nDumb] = new Genius(nevetad.names[i+adatbeeski.nDumb]);
+            jatekos[i+adatbeeski.nDumb] = new Genius();
+        }
+        for(int i=0;i<adatbeeski.nDumb;i++)
+        {
+            jatekos[i].name = nevetad.names[i];
+        }
+        for(int i=0;i<adatbeeski.nGenius;i++)
+        {
+            jatekos[i+adatbeeski.nDumb+1].name = nevetad.names[i+adatbeeski.nDumb+1];
         }
     }
 }
