@@ -12,8 +12,13 @@ public class NotAStaticMain{
         MakeThePlayers(jatekos, nevetad, adatbeeski);
         for(int i=0;i<adatbeeski.nDumb;i++)
         {
-            System.out.print(jatekos[i].name);
+            System.out.print(jatekos[i].name+",");
         }
+        for(int i=0;i<adatbeeski.nGenius;i++)
+        {
+            System.out.print(jatekos[i+adatbeeski.nDumb+1].name+",");
+        }
+        System.out.print("jatszik.");
     }
 
     private void MakeThePlayers(Player[] jatekos, GiveEmAName nevetad, GettingBasicDatas adatbeeski) {
