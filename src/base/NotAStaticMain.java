@@ -1,4 +1,5 @@
 package base;
 
-public class NotAStaticMain {
+public class NotAStaticMain{
+    public NotAStaticMain(){}
 }
