@@ -3,9 +3,11 @@ package base;
 import java.util.Scanner;
 
 public class GettingBasicDatas {
+    public GettingBasicDatas(){}
+
     public int nDumb=0;
     public int nGenius=0;
-    public GettingBasicDatas(){}
+
 
     public void NumOfPlayers()
     {
