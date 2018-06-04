@@ -6,13 +6,12 @@ public class NotAStaticMain{
 
     public void RunTheGame(){
         int nDumb,nGenius;
-        Player[] jatkos = new Player[40];
-        Scanner be = new Scanner(System.in);
-        System.out.print("Buta jatekosok szama:");
-        nDumb = be.nextInt();
-        System.out.println("\n");
-        System.out.print("Okos jatekosok szama:");
-        nGenius = be.nextInt();
+        Player[] jatekos = new Player[40];
+        GettingBasicDatas adatbe = new GettingBasicDatas();
+        for(int i=0;i<adatbe.nDumb;i++)
+        {
+            jatekos[i]= new Idiot();
+        }
 
     }
 }
