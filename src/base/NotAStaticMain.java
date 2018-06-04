@@ -7,14 +7,36 @@ public class NotAStaticMain{
     public void RunTheGame(){
         Player[] jatekos = new Player[21];
         GiveEmAName nevetad = new GiveEmAName();
-        GettingBasicDatas adatbe = new GettingBasicDatas();
-        for(int i=0;i<adatbe.nDumb;i++)
+        GettingBasicDatas adatbeeski = new GettingBasicDatas();
+        adatbeeski.NumOfPlayers();
+        MakeThePlayers(jatekos, nevetad, adatbeeski);
+        for(int i=0;i<adatbeeski.nDumb;i++)
         {
-            jatekos[i] = new Idiot(nevetad.names[i]);
+            System.out.print(jatekos[i].name+",");
         }
-        for(int i=0;i<adatbe.nGenius;i++)
+        for(int i=0;i<adatbeeski.nGenius;i++)
         {
-            jatekos[i+adatbe.nDumb] = new Genius(nevetad.names[i+adatbe.nDumb]);
+            System.out.print(jatekos[i+adatbeeski.nDumb].name+",");
+        }
+        System.out.print("jatszik.");
+    }
+
+    private void MakeThePlayers(Player[] jatekos, GiveEmAName nevetad, GettingBasicDatas adatbeeski) {
+        for(int i=0;i<adatbeeski.nDumb;i++)
+        {
+            jatekos[i] = new Idiot();
+        }
+        for(int i=0;i<adatbeeski.nGenius;i++)
+        {
+            jatekos[i+adatbeeski.nDumb] = new Genius();
+        }
+        for(int i=0;i<adatbeeski.nDumb;i++)
+        {
+            jatekos[i].name = nevetad.names[i];
+        }
+        for(int i=0;i<adatbeeski.nGenius;i++)
+        {
+            jatekos[i+adatbeeski.nDumb].name = nevetad.names[i+adatbeeski.nDumb+1];
         }
     }
 }

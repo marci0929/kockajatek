@@ -1,7 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
+<<<<<<< HEAD
     <list default="true" id="66b6db59-ce1c-48dc-9510-1d7bdd248f5b" name="Default" comment="basics are working" />
+=======
+    <list default="true" id="66b6db59-ce1c-48dc-9510-1d7bdd248f5b" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
+>>>>>>> 9eb56dad03f7a8c7e2bf80ff903d7073fbe2c24e
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -15,8 +21,13 @@
       <file leaf-file-name="Main.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/base/Main.java">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
             <state relative-caret-position="102">
               <caret line="6" selection-start-line="6" selection-end-line="6" />
+=======
+            <state relative-caret-position="119">
+              <caret line="7" selection-start-line="7" selection-end-line="7" />
+>>>>>>> 9eb56dad03f7a8c7e2bf80ff903d7073fbe2c24e
               <folding>
                 <element signature="e#118#164#1" expanded="true" />
               </folding>
@@ -28,7 +39,11 @@
         <entry file="file://$PROJECT_DIR$/src/base/Player.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="51">
+<<<<<<< HEAD
               <caret line="3" column="20" selection-start-line="3" selection-start-column="20" selection-end-line="3" selection-end-column="20" />
+=======
+              <caret line="3" column="23" selection-start-line="3" selection-start-column="23" selection-end-line="3" selection-end-column="23" />
+>>>>>>> 9eb56dad03f7a8c7e2bf80ff903d7073fbe2c24e
             </state>
           </provider>
         </entry>
@@ -54,8 +69,13 @@
       <file leaf-file-name="GettingBasicDatas.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/base/GettingBasicDatas.java">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
             <state relative-caret-position="221">
               <caret line="13" column="29" selection-start-line="13" selection-start-column="29" selection-end-line="13" selection-end-column="29" />
+=======
+            <state relative-caret-position="255">
+              <caret line="15" column="29" selection-start-line="15" selection-start-column="29" selection-end-line="15" selection-end-column="29" />
+>>>>>>> 9eb56dad03f7a8c7e2bf80ff903d7073fbe2c24e
               <folding>
                 <element signature="e#204#240#1" expanded="true" />
                 <element signature="e#349#353#0" expanded="true" />
@@ -67,14 +87,56 @@
       <file leaf-file-name="NotAStaticMain.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/base/NotAStaticMain.java">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
             <state relative-caret-position="255">
               <caret line="20" selection-start-line="20" selection-end-line="20" />
+=======
+            <state relative-caret-position="102">
+              <caret line="6" column="28" selection-start-line="6" selection-start-column="28" selection-end-line="6" selection-end-column="28" />
+>>>>>>> 9eb56dad03f7a8c7e2bf80ff903d7073fbe2c24e
               <folding>
                 <element signature="method#RunTheGame#0;class#NotAStaticMain#0" />
                 <element signature="e#139#173#1" expanded="true" />
                 <element signature="e#182#222#1" expanded="true" />
                 <element signature="e#231#286#1" expanded="true" />
+<<<<<<< HEAD
                 <element signature="method#MakeThePlayers#0;class#NotAStaticMain#0" />
+=======
+                <element signature="e#388#396#1" expanded="true" />
+                <element signature="e#384#490#0" expanded="true" />
+                <element signature="e#384#490#0" expanded="true" />
+                <element signature="e#384#490#0" expanded="true" />
+                <element signature="e#459#478#0" expanded="true" />
+                <element signature="e#459#478#0" expanded="true" />
+                <element signature="e#503#511#1" expanded="true" />
+                <element signature="e#499#624#0" expanded="true" />
+                <element signature="e#499#624#0" expanded="true" />
+                <element signature="e#499#624#0" expanded="true" />
+                <element signature="e#576#612#0" expanded="true" />
+                <element signature="e#584#602#0" expanded="true" />
+                <element signature="e#576#612#0" expanded="true" />
+                <element signature="method#MakeThePlayers#0;class#NotAStaticMain#0" />
+                <element signature="e#787#795#1" expanded="true" />
+                <element signature="e#781#874#0" expanded="true" />
+                <element signature="e#781#874#0" expanded="true" />
+                <element signature="e#781#874#0" expanded="true" />
+                <element signature="e#889#897#1" expanded="true" />
+                <element signature="e#883#996#0" expanded="true" />
+                <element signature="e#883#996#0" expanded="true" />
+                <element signature="e#883#996#0" expanded="true" />
+                <element signature="e#951#969#0" expanded="true" />
+                <element signature="e#1011#1019#1" expanded="true" />
+                <element signature="e#1005#1108#0" expanded="true" />
+                <element signature="e#1005#1108#0" expanded="true" />
+                <element signature="e#1005#1108#0" expanded="true" />
+                <element signature="e#1123#1131#1" expanded="true" />
+                <element signature="e#1117#1258#0" expanded="true" />
+                <element signature="e#1117#1258#0" expanded="true" />
+                <element signature="e#1117#1258#0" expanded="true" />
+                <element signature="e#1185#1203#0" expanded="true" />
+                <element signature="e#1226#1246#0" expanded="true" />
+                <element signature="e#1226#1246#0" expanded="true" />
+>>>>>>> 9eb56dad03f7a8c7e2bf80ff903d7073fbe2c24e
               </folding>
             </state>
           </provider>
@@ -91,17 +153,24 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="MakeAnotherClassForPlayerNameMaking" />
+      </map>
+    </option>
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/src/com/company/Main.java" />
-        <option value="$PROJECT_DIR$/src/base/Main.java" />
-        <option value="$PROJECT_DIR$/src/base/Player.java" />
+        <option value="$PROJECT_DIR$/src/base/GiveEmAName.java" />
+        <option value="$PROJECT_DIR$/src/base/CreatePlayers.java" />
         <option value="$PROJECT_DIR$/src/base/GettingBasicDatas.java" />
+        <option value="$PROJECT_DIR$/src/base/Output.java" />
+        <option value="$PROJECT_DIR$/src/base/Player.java" />
         <option value="$PROJECT_DIR$/src/base/Idiot.java" />
         <option value="$PROJECT_DIR$/src/base/Genius.java" />
-        <option value="$PROJECT_DIR$/src/base/GiveEmAName.java" />
+        <option value="$PROJECT_DIR$/src/base/Main.java" />
         <option value="$PROJECT_DIR$/src/base/NotAStaticMain.java" />
       </list>
     </option>
@@ -146,6 +215,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="extract.method.default.visibility" value="private" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RunDashboard">
@@ -160,7 +230,17 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.Main (1)">
+    <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="base.Main" />
+      <module name="Kockajatek" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="base.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
     <configuration name="Main" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="com.company.Main" />
       <module name="Kockajatek" />
@@ -183,6 +263,16 @@
       <envs />
       <method />
     </configuration>
+    <list>
+      <item itemvalue="Application.Main" />
+      <item itemvalue="Application.Main (1)" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main (1)" />
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -265,12 +355,67 @@
       <option name="project" value="LOCAL" />
       <updated>1528132132404</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="created Idiot and Genius players with names">
+      <created>1528132412171</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1528132412171</updated>
+    </task>
+    <task id="LOCAL-00012" summary="trying a new branch">
+      <created>1528132511923</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1528132511923</updated>
+    </task>
+    <task id="LOCAL-00013" summary="new branch failed,I will ask Emil about that">
+      <created>1528133255661</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1528133255661</updated>
+    </task>
+    <task id="LOCAL-00014" summary="made things right">
+      <created>1528133860463</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1528133860463</updated>
+    </task>
+    <task id="LOCAL-00015" summary="trying to print out the player's names">
+      <created>1528134843604</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1528134843604</updated>
+    </task>
+    <task id="LOCAL-00016" summary="trying to print out the player's names">
+      <created>1528135269730</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1528135269730</updated>
+    </task>
+    <task id="LOCAL-00017" summary="almost working">
+      <created>1528135645265</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1528135645265</updated>
+    </task>
+    <task id="LOCAL-00018" summary="basics are working">
+      <created>1528136183267</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1528136183267</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="784" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -314,7 +459,14 @@
     <MESSAGE value="created user data input" />
     <MESSAGE value="-Exported the data input to another class&#10;-Started initializing the Idiot players" />
     <MESSAGE value="-fixed Idiot and Genius name changes&#10;-Added GiveEmAName class&#10;-initialized names in GiveEmAName class" />
-    <option name="LAST_COMMIT_MESSAGE" value="-fixed Idiot and Genius name changes&#10;-Added GiveEmAName class&#10;-initialized names in GiveEmAName class" />
+    <MESSAGE value="created Idiot and Genius players with names" />
+    <MESSAGE value="trying a new branch" />
+    <MESSAGE value="new branch failed,I will ask Emil about that" />
+    <MESSAGE value="made things right" />
+    <MESSAGE value="trying to print out the player's names" />
+    <MESSAGE value="almost working" />
+    <MESSAGE value="basics are working" />
+    <option name="LAST_COMMIT_MESSAGE" value="basics are working" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="editorHistoryManager">
@@ -371,6 +523,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
           <caret line="2" column="35" selection-start-line="2" selection-start-column="35" selection-end-line="2" selection-end-column="35" />
+<<<<<<< HEAD
         </state>
       </provider>
     </entry>
@@ -389,11 +542,14 @@
             <element signature="e#204#240#1" expanded="true" />
             <element signature="e#349#353#0" expanded="true" />
           </folding>
+=======
+>>>>>>> 9eb56dad03f7a8c7e2bf80ff903d7073fbe2c24e
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/base/Main.java">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="119">
           <caret line="7" selection-start-line="7" selection-end-line="7" />
           <folding>
@@ -422,10 +578,25 @@
           <caret line="6" selection-start-line="6" selection-end-line="6" />
           <folding>
             <element signature="e#118#164#1" expanded="true" />
+=======
+        <state relative-caret-position="34">
+          <caret line="2" column="35" selection-start-line="2" selection-start-column="35" selection-end-line="2" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/base/GettingBasicDatas.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="29" selection-start-line="15" selection-start-column="29" selection-end-line="15" selection-end-column="29" />
+          <folding>
+            <element signature="e#204#240#1" expanded="true" />
+            <element signature="e#349#353#0" expanded="true" />
+>>>>>>> 9eb56dad03f7a8c7e2bf80ff903d7073fbe2c24e
           </folding>
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/src/base/GettingBasicDatas.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="221">
@@ -459,22 +630,70 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/base/GiveEmAName.java">
+=======
+    <entry file="file://$PROJECT_DIR$/src/base/Main.java">
+>>>>>>> 9eb56dad03f7a8c7e2bf80ff903d7073fbe2c24e
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="84" selection-start-line="5" selection-start-column="84" selection-end-line="5" selection-end-column="84" />
+        <state relative-caret-position="119">
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
+          <folding>
+            <element signature="e#118#164#1" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/base/NotAStaticMain.java">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="255">
           <caret line="20" selection-start-line="20" selection-end-line="20" />
+=======
+        <state relative-caret-position="102">
+          <caret line="6" column="28" selection-start-line="6" selection-start-column="28" selection-end-line="6" selection-end-column="28" />
+>>>>>>> 9eb56dad03f7a8c7e2bf80ff903d7073fbe2c24e
           <folding>
             <element signature="method#RunTheGame#0;class#NotAStaticMain#0" />
             <element signature="e#139#173#1" expanded="true" />
             <element signature="e#182#222#1" expanded="true" />
             <element signature="e#231#286#1" expanded="true" />
+<<<<<<< HEAD
             <element signature="method#MakeThePlayers#0;class#NotAStaticMain#0" />
+=======
+            <element signature="e#388#396#1" expanded="true" />
+            <element signature="e#384#490#0" expanded="true" />
+            <element signature="e#384#490#0" expanded="true" />
+            <element signature="e#384#490#0" expanded="true" />
+            <element signature="e#459#478#0" expanded="true" />
+            <element signature="e#459#478#0" expanded="true" />
+            <element signature="e#503#511#1" expanded="true" />
+            <element signature="e#499#624#0" expanded="true" />
+            <element signature="e#499#624#0" expanded="true" />
+            <element signature="e#499#624#0" expanded="true" />
+            <element signature="e#576#612#0" expanded="true" />
+            <element signature="e#584#602#0" expanded="true" />
+            <element signature="e#576#612#0" expanded="true" />
+            <element signature="method#MakeThePlayers#0;class#NotAStaticMain#0" />
+            <element signature="e#787#795#1" expanded="true" />
+            <element signature="e#781#874#0" expanded="true" />
+            <element signature="e#781#874#0" expanded="true" />
+            <element signature="e#781#874#0" expanded="true" />
+            <element signature="e#889#897#1" expanded="true" />
+            <element signature="e#883#996#0" expanded="true" />
+            <element signature="e#883#996#0" expanded="true" />
+            <element signature="e#883#996#0" expanded="true" />
+            <element signature="e#951#969#0" expanded="true" />
+            <element signature="e#1011#1019#1" expanded="true" />
+            <element signature="e#1005#1108#0" expanded="true" />
+            <element signature="e#1005#1108#0" expanded="true" />
+            <element signature="e#1005#1108#0" expanded="true" />
+            <element signature="e#1123#1131#1" expanded="true" />
+            <element signature="e#1117#1258#0" expanded="true" />
+            <element signature="e#1117#1258#0" expanded="true" />
+            <element signature="e#1117#1258#0" expanded="true" />
+            <element signature="e#1185#1203#0" expanded="true" />
+            <element signature="e#1226#1246#0" expanded="true" />
+            <element signature="e#1226#1246#0" expanded="true" />
+>>>>>>> 9eb56dad03f7a8c7e2bf80ff903d7073fbe2c24e
           </folding>
         </state>
       </provider>
