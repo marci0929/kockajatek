@@ -1,4 +1,5 @@
 package base;
 
-public class Genius {
+public class Genius extends Player{
+    public Genius(){}
 }
