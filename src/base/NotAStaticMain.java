@@ -9,7 +9,9 @@ public class NotAStaticMain{
         GiveEmAName nevetad = new GiveEmAName();
         GettingBasicDatas adatbeeski = new GettingBasicDatas();
         adatbeeski.NumOfPlayers();
-        MakeThePlayers(jatekos, nevetad, adatbeeski);
+        PlayerMaker playerMaker = new PlayerMaker();
+        playerMaker.MakeThePlayers(jatekos, nevetad, adatbeeski);
+        
         for(int i=0;i<adatbeeski.nDumb;i++)
         {
             System.out.print(jatekos[i].name+",");
@@ -21,22 +23,5 @@ public class NotAStaticMain{
         System.out.print("jatszik.");
     }
 
-    private void MakeThePlayers(Player[] jatekos, GiveEmAName nevetad, GettingBasicDatas adatbeeski) {
-        for(int i=0;i<adatbeeski.nDumb;i++)
-        {
-            jatekos[i] = new Idiot();
-        }
-        for(int i=0;i<adatbeeski.nGenius;i++)
-        {
-            jatekos[i+adatbeeski.nDumb] = new Genius();
-        }
-        for(int i=0;i<adatbeeski.nDumb;i++)
-        {
-            jatekos[i].name = nevetad.names[i];
-        }
-        for(int i=0;i<adatbeeski.nGenius;i++)
-        {
-            jatekos[i+adatbeeski.nDumb].name = nevetad.names[i+adatbeeski.nDumb+1];
-        }
-    }
+
 }
