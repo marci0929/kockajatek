@@ -7,10 +7,14 @@ public class RandomGen {
 
     int thrown_number=0;
 
-    public int cubethrowing(int lower_bound, int upper_bound)
+    public void cubethrowing(int lower_bound, int upper_bound)
     {
         Random rand = new Random();
         thrown_number = rand.nextInt(upper_bound)+lower_bound;
-        return thrown_number;
+    }
+    public void kockaszam(int min_cubes, int max_cubes)
+    {
+        Random rand = new Random();
+        thrown_number = rand.nextInt(min_cubes)+max_cubes;
     }
 }
