@@ -7,6 +7,7 @@ public class GettingBasicDatas {
 
     public int nDumb=0;
     public int nGenius=0;
+    public int num_of_turns=0;
 
 
     public void NumOfPlayers()
@@ -17,5 +18,7 @@ public class GettingBasicDatas {
         System.out.println("\n");
         System.out.print("Okos jatekosok szama:");
         nGenius = be.nextInt();
+        System.out.print("Number of turns:");
+        num_of_turns = be.nextInt();
     }
 }

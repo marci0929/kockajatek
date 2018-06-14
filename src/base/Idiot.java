@@ -9,6 +9,6 @@ public class Idiot extends Player {
 
     public int dobas()
     {
-
+        return 0;
     }
 }

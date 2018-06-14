@@ -22,6 +22,8 @@ public class NotAStaticMain{
             System.out.print(jatekos.get(i+adatbeeski.nDumb).name+",");
         }
         System.out.print("jatszik.");
+        Gameplay jatek = new Gameplay();
+        jatek.flow_of_game();
     }
 
 

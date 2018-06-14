@@ -11,5 +11,6 @@ public class RandomGen {
     {
         Random rand = new Random();
         thrown_number = rand.nextInt(upper_bound)+lower_bound;
+        return thrown_number;
     }
 }
