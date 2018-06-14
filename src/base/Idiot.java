@@ -7,7 +7,6 @@ public class Idiot extends Player {
 
     public Idiot(){
     }
-
     public int dobas()
     {
         RandomGen rand = new RandomGen();

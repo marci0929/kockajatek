@@ -9,7 +9,7 @@ public class Gameplay {
     {
         for(int i=0;i<adatbeeski.num_of_turns;i++)
         {
-            jatekos.get(i).idiot_score(buta);
+            System.out.println(jatekos.get(i).score);
         }
     }
 }

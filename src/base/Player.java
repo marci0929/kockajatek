@@ -7,9 +7,9 @@ public class Player {
     public int score;
     public Player(){
     }
-    public int idiot_score(ArrayList<Player> buta)
+    public void idiot_score(Idiot buta)
     {
-        return buta.dobas();
+        score=buta.dobas();
     }
 
 }
