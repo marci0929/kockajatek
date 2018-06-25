@@ -4,15 +4,14 @@ import java.util.ArrayList;
 
 public class Idiot extends Player {
 
-
-    public Idiot(){
-    }
+    public Idiot(){}
+    int cube_num_Idiot=0;
+    int sum_of_throws=0;
     public int dobas()
     {
         RandomGen rand = new RandomGen();
-        int sum_of_throws=0;
         rand.kockaszam(1,3);
-        int cube_num_Idiot = rand.thrown_number;
+        cube_num_Idiot = rand.kockak_szama;
         for(int l=0;l<cube_num_Idiot;l++)
         {
             rand.cubethrowing(1,6);
