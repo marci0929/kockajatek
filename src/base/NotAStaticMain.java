@@ -12,7 +12,6 @@ public class NotAStaticMain{
         adatbeeski.NumOfPlayers();
         Idiot buta = new Idiot();
         Genius okos = new Genius();
-        RandomGen rand = new RandomGen();
         PlayerMaker playerMaker = new PlayerMaker();
         playerMaker.MakeThePlayers(jatekos, nevetad, adatbeeski);
 
@@ -26,7 +25,7 @@ public class NotAStaticMain{
         }
         System.out.print("jatszik.");
         Gameplay jatek = new Gameplay();
-        jatek.flow_of_game(adatbeeski,jatekos,rand,buta,okos);
+        jatek.flow_of_game(adatbeeski,jatekos,buta,okos);
     }
 
 

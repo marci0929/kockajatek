@@ -19,4 +19,13 @@ public class Idiot extends Player {
         }
         return sum_of_throws;
     }
+
+    @Override
+    public int score() {
+        Idiot buta = new Idiot();
+        score = score+buta.dobas();
+        dobasosszeg=buta.sum_of_throws;
+        player_cube_num_idiot = buta.cube_num_Idiot;
+        return super.score();
+    }
 }

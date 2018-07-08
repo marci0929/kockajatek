@@ -18,4 +18,13 @@ public class Genius extends Player{
         }
         return sum_of_throws;
     }
+
+    @Override
+    public int score() {
+        Genius okos = new Genius();
+        score = score+okos.dobas();
+        dobasosszeg=okos.sum_of_throws;
+        player_cube_num_genius= okos.cube_num_genius;
+        return super.score();
+    }
 }

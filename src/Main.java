@@ -1,4 +1,3 @@
-package base;
 import base.*;
 
 public class Main {
