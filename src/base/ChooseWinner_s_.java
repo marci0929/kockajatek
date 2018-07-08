@@ -10,7 +10,7 @@ public class ChooseWinner_s_ {
     public int h=0;
     public boolean isequalscores =false;
     public String winner;
-    public int min_score=9999999;
+    public int min_distance =9999999;
     public int winner_score=0;
 
     public void distance_from_21(ArrayList<Player> jatekos)
@@ -23,8 +23,9 @@ public class ChooseWinner_s_ {
     {
         for (int wi=0;wi<adatbeeski.nDumb+adatbeeski.nGenius;wi++)
         {
-            if(jatekos.get(wi).player_number_distance<min_score)
+            if(jatekos.get(wi).player_number_distance< min_distance)
             {
+                min_distance =jatekos.get(wi).player_number_distance;
                 winner=jatekos.get(wi).name;
                 winner_score=jatekos.get(wi).score;
             }
@@ -58,8 +59,4 @@ public class ChooseWinner_s_ {
         }
     }
 
-    public void show_me_the_winner(ArrayList<Player> jatekos,GettingBasicDatas adatbeeski)
-    {
-
-    }
 }

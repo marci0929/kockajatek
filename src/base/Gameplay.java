@@ -30,6 +30,5 @@ public class Gameplay {
             System.out.println(jatekos.get(v).name+" tavolsaga a 21-tol: "+nyertes.number_distance);
         }
         nyertes.winner_selection(jatekos,adatbeeski);
-        nyertes.show_me_the_winner(jatekos,adatbeeski);
     }
 }
