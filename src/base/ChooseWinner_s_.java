@@ -36,8 +36,13 @@ public class ChooseWinner_s_ {
             {
                 if((jatekos.get(p).player_number_distance==jatekos.get(po).player_number_distance)&&(p!=po))
                 {
-
+                    if(jatekos.get(p).score==winner_score) {
                         isequalscores = true;
+                    }
+                    else
+                    {
+                        isequalscores = false;
+                    }
                 }
 
             }
@@ -53,7 +58,7 @@ public class ChooseWinner_s_ {
             {
                 if(jatekos.get(pl).score==winner_score)
                 {
-                    System.out.println(jatekos.get(pl).name+",");
+                    System.out.print(jatekos.get(pl).name+",");
                 }
             }
         }
