@@ -29,7 +29,7 @@ public class Gameplay {
             nyertes.distance_from_21(jatekos);
             System.out.println(jatekos.get(v).name+" tavolsaga a 21-tol: "+nyertes.number_distance);
         }
-        nyertes.is_equal_scores(jatekos,adatbeeski);
+        nyertes.winner_selection(jatekos,adatbeeski);
         nyertes.show_me_the_winner(jatekos,adatbeeski);
     }
 }

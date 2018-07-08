@@ -19,7 +19,7 @@ public class ChooseWinner_s_ {
        jatekos.get(h).player_number_distance=number_distance;
     }
 
-    public void is_equal_scores(ArrayList<Player> jatekos, GettingBasicDatas adatbeeski)
+    public void winner_selection(ArrayList<Player> jatekos, GettingBasicDatas adatbeeski)
     {
         for (int wi=0;wi<adatbeeski.nDumb+adatbeeski.nGenius;wi++)
         {
@@ -44,6 +44,17 @@ public class ChooseWinner_s_ {
         if(isequalscores ==false)
         {
             System.out.println("1 nyertes van: "+winner+" a nyertes, "+winner_score+" ponttal.");
+        }
+        else
+        {
+            System.out.println("Tobb nyertes van: ");
+            for (int pl=0;pl<adatbeeski.nGenius+adatbeeski.nDumb;pl++)
+            {
+                if(jatekos.get(pl).score==winner_score)
+                {
+                    System.out.println(jatekos.get(pl).name+",");
+                }
+            }
         }
     }
 
