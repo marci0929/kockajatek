@@ -11,6 +11,7 @@ public class NotAStaticMain{
         GettingBasicDatas adatbeeski = new GettingBasicDatas();
         adatbeeski.NumOfPlayers();
         Idiot buta = new Idiot();
+        ChooseWinner_s_ nyertes = new ChooseWinner_s_();
         Genius okos = new Genius();
         PlayerMaker playerMaker = new PlayerMaker();
         playerMaker.MakeThePlayers(jatekos, nevetad, adatbeeski);
@@ -25,7 +26,7 @@ public class NotAStaticMain{
         }
         System.out.print("jatszik.");
         Gameplay jatek = new Gameplay();
-        jatek.flow_of_game(adatbeeski,jatekos,buta,okos);
+        jatek.flow_of_game(adatbeeski,jatekos,nyertes);
     }
 
 

@@ -10,6 +10,7 @@ public class Player {
     int dobasosszeg=0;
     int player_cube_num_idiot;
     int player_cube_num_genius;
+    int player_number_distance;
 
     public int score()
     {

@@ -6,7 +6,7 @@ public class Gameplay {
 
     public Gameplay(){}
 
-    public void flow_of_game(GettingBasicDatas adatbeeski, ArrayList<Player> jatekos,Idiot buta, Genius okos)
+    public void flow_of_game(GettingBasicDatas adatbeeski, ArrayList<Player> jatekos,ChooseWinner_s_ nyertes)
     {
         for(int i=0;i<adatbeeski.num_of_turns;i++) {
             for(int t=0;t<adatbeeski.nDumb;t++) {
@@ -23,5 +23,12 @@ public class Gameplay {
                 System.out.println("Igy most a pontszama:"+jatekos.get(g).score);
             }
         }
+        for (int v=0;v<adatbeeski.nDumb+adatbeeski.nGenius;v++)
+        {
+            nyertes.h=v;
+            nyertes.distance_from_21(jatekos);
+            System.out.println(jatekos.get(v).name+" tavolsaga a 21-tol: "+nyertes.number_distance);
+        }
+        nyertes.is_one_winner(jatekos,adatbeeski);
     }
 }
