@@ -19,6 +19,7 @@ public class Genius extends Player{
         {
             rand.cubethrowing(1,6);
             sum_of_throws=rand.thrown_number;
+            cube_num_genius=1;
         }
         else {
 
@@ -39,11 +40,17 @@ public class Genius extends Player{
                         }
                     }
                     else{
-                        for (int dai=0;dai<3;dai++)
-                        {
+                        if(average_throw_sum>=13&&average_throw_sum<=18) {
+                            for (int dai = 0; dai < 3; dai++) {
+                                rand.cubethrowing(1, 6);
+                                cube_num_genius = 3;
+                                sum_of_throws = sum_of_throws + rand.thrown_number;
+                            }
+                        }
+                        else{
                             rand.cubethrowing(1,6);
-                            cube_num_genius=3;
-                            sum_of_throws=sum_of_throws+rand.thrown_number;
+                            sum_of_throws=rand.thrown_number;
+                            cube_num_genius=1;
                         }
                     }
                 }
