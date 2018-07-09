@@ -26,7 +26,7 @@ public class NotAStaticMain{
         }
         System.out.print("jatszik.");
         Gameplay jatek = new Gameplay();
-        jatek.flow_of_game(adatbeeski,jatekos,nyertes);
+        jatek.flow_of_game(adatbeeski,jatekos,nyertes,jatek);
     }
 
 

@@ -21,11 +21,11 @@ public class Idiot extends Player {
     }
 
     @Override
-    public int score() {
+    public int score(GettingBasicDatas adatbeeski,ArrayList<Player> jatekos,Gameplay jatekmenet) {
         Idiot buta = new Idiot();
         score = score+buta.dobas();
         dobasosszeg=buta.sum_of_throws;
         player_cube_num_idiot = buta.cube_num_Idiot;
-        return super.score();
+        return super.score(adatbeeski,jatekos,jatekmenet);
     }
 }

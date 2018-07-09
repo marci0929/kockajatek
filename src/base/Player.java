@@ -12,7 +12,7 @@ public class Player {
     int player_cube_num_genius;
     int player_number_distance;
 
-    public int score()
+    public int score(GettingBasicDatas adatbeeski,ArrayList<Player> jatekos,Gameplay jatekmenet)
     {
         return dobasosszeg;
     }
